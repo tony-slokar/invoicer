@@ -5,4 +5,8 @@ defmodule InvoicerTest do
   test "greets the world" do
     assert Invoicer.hello() == :world
   end
+
+  test "make an HTML invoice" do
+    assert Invoicer.getHTMLInvoice() == "fake invoice"
+  end
 end
