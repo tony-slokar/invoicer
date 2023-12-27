@@ -1,5 +1,7 @@
 %{
   "assert_html": {:hex, :assert_html, "0.1.4", "e8bc89f4cfdb5d686b75c2509e4e3cbce364f8d13a345bd88075b6134ccf32df", [:mix], [{:floki, "~> 0.21", [hex: :floki, repo: "hexpm", optional: false]}], "hexpm", "9cbe2792bce2535ed343d9ebc4eebef23f0c9bf75a27c740d9b7b05d44ea213b"},
   "floki": {:hex, :floki, "0.35.2", "87f8c75ed8654b9635b311774308b2760b47e9a579dabf2e4d5f1e1d42c39e0b", [:mix], [], "hexpm", "6b05289a8e9eac475f644f09c2e4ba7e19201fd002b89c28c1293e7bd16773d9"},
-  "pdf": {:hex, :pdf, "0.6.1", "9ef3c608b5b310ee1edc67443573a84b49e3b6a66d09357f814e4dd263c6f2f9", [:mix], [], "hexpm", "ec67027a9a8df83746c3b9da7df473c1fa95196140cd945cc9faf3eacd214d72"}
+  "pdf": {:hex, :pdf, "0.6.1", "9ef3c608b5b310ee1edc67443573a84b49e3b6a66d09357f814e4dd263c6f2f9", [:mix], [], "hexpm", "ec67027a9a8df83746c3b9da7df473c1fa95196140cd945cc9faf3eacd214d72"},
+  "pdf_generator": {:hex, :pdf_generator, "0.6.2", "601f145a0db0dcd7b8c35e1698038f78f18fc42eb3bd2001f826a3a239205f0e", [:mix], [], "hexpm", "82af2debaae156834b14dc0727cd8c3ded70ed4a2a909107d514bf28f5d1fc35"},
+  "porcelain": {:hex, :porcelain, "2.0.3", "2d77b17d1f21fed875b8c5ecba72a01533db2013bd2e5e62c6d286c029150fdc", [:mix], [], "hexpm", "dc996ab8fadbc09912c787c7ab8673065e50ea1a6245177b0c24569013d23620"},
 }
