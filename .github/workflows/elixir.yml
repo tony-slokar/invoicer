@@ -27,9 +27,7 @@ jobs:
       with:
         elixir-version: '1.15.7' # [Required] Define the Elixir version
         otp-version: '26.0'      # [Required] Define the Erlang/OTP version
-    - name: Install puppeteer-pdf1
-      run: nvm install 8
-    - name: Install puppeteer-pdf2
+    - name: Install puppeteer-pdf
       run: npm i puppeteer-pdf -g
     - name: Restore dependencies cache
       uses: actions/cache@v3
