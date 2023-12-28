@@ -11,12 +11,6 @@ defmodule Invoicer do
     end
   end
 
-  #def createPDFInvoice(source) do
-    #{:ok, html} = File.read(source)
-    #{:ok, pdf} = PdfGenerator.generate(html)
-    #File.rename(pdf, "lib/invoice.pdf")
-  #end
-
   def createPDFInvoice() do
     html_path = Path.absname("files/invoice.html")
     pdf_path = Path.absname("files/invoice.pdf")
