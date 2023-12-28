@@ -11,21 +11,24 @@ defmodule Invoicer do
     end
   end
 
-  def createPDFInvoice(source) do
+  #def createPDFInvoice(source) do
     #{:ok, html} = File.read(source)
     #{:ok, pdf} = PdfGenerator.generate(html)
     #File.rename(pdf, "lib/invoice.pdf")
-  end
+  #end
 
-  def createPDFInvoice(source, result) do
+  def createPDFInvoice() do
     #{:ok, html} = File.read(source)
     #{:ok, pdf} = PdfGenerator.generate(html)
     #File.rename(pdf, result)
+    html_path = Path.absname("files/invoice.html")
+    pdf_path = Path.absname("files/invoice.pdf")
+    PuppeteerPdf.Generate.from_file(html_path,pdf_path)
   end
 
-  def createPDFInvoice() do
+  #def createPDFInvoice() do
     #{:ok, html} = File.read("files/invoice.html")
     #{:ok, pdf} = PdfGenerator.generate(html)
     #File.rename(pdf, "files/invoice.pdf")
-  end
+  #end
 end

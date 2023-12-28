@@ -1,0 +1,4 @@
+%{
+  "briefly": {:hex, :briefly, "0.5.0", "4935807a2dc46ae44685dab26f7d5918adeb2da66b327693b1ff6a483d5e06dd", [:mix], [], "hexpm", "61cf090ca37c24ff43aba0e0c77c12fb4d60253d3b2d268953f3ad49dc59ce6b"},
+  "puppeteer_pdf": {:hex, :puppeteer_pdf, "1.0.4", "ead60df9a3e306c51521dd3b07e248f95dc474a848b67524e34c4f5bd62c77d0", [:mix], [{:briefly, "~> 0.3", [hex: :briefly, repo: "hexpm", optional: false]}], "hexpm", "f26cb269a50e9eee2181ec6d00a34eb822017760a2bf33c356715a605197b2f8"},
+}
