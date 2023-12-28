@@ -12,20 +12,20 @@ defmodule Invoicer do
   end
 
   def createPDFInvoice(source) do
-    {:ok, html} = File.read(source)
-    {:ok, pdf} = PdfGenerator.generate(html)
-    File.rename(pdf, "lib/invoice.pdf")
+    #{:ok, html} = File.read(source)
+    #{:ok, pdf} = PdfGenerator.generate(html)
+    #File.rename(pdf, "lib/invoice.pdf")
   end
 
   def createPDFInvoice(source, result) do
-    {:ok, html} = File.read(source)
-    {:ok, pdf} = PdfGenerator.generate(html)
-    File.rename(pdf, result)
+    #{:ok, html} = File.read(source)
+    #{:ok, pdf} = PdfGenerator.generate(html)
+    #File.rename(pdf, result)
   end
 
   def createPDFInvoice() do
-    {:ok, html} = File.read("files/invoice.html")
-    {:ok, pdf} = PdfGenerator.generate(html)
-    File.rename(pdf, "files/invoice.pdf")
+    #{:ok, html} = File.read("files/invoice.html")
+    #{:ok, pdf} = PdfGenerator.generate(html)
+    #File.rename(pdf, "files/invoice.pdf")
   end
 end
